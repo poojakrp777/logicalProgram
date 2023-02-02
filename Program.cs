@@ -31,9 +31,9 @@ namespace LogicalProgram
                     int number = Convert.ToInt32(Console.ReadLine());
                     ReverseNumber.Reverse(number);
                     break;
-                    //case 5:
-                    //    CouponNumber.Coupon();
-                    //    break;
+                case 5:
+                    CouponNumber.Coupon();
+                    break;
             }
             Console.ReadLine();
         }
