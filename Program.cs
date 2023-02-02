@@ -23,17 +23,17 @@ namespace LogicalProgram
                     PerfectNo Perfect_No = new PerfectNo();
                     Perfect_No.PerfectNumber();
                     break;
-                case 3:
-                    PrimeNumber.FindPrimes();
-                    break;
-                case 4:
-                    Console.WriteLine("Enter any number to find reverse");
-                    int number = Convert.ToInt32(Console.ReadLine());
-                    ReverseNumber.Reverse(number);
-                    break;
-                case 5:
-                    CouponNumber.Coupon();
-                    break;
+                //case 3:
+                //    PrimeNumber.FindPrimes();
+                //    break;
+                //case 4:
+                //    Console.WriteLine("Enter any number to find reverse");
+                //    int number = Convert.ToInt32(Console.ReadLine());
+                //    ReverseNumber.Reverse(number);
+                //    break;
+                //case 5:
+                //    CouponNumber.Coupon();
+                //    break;
             }
             Console.ReadLine();
         }
